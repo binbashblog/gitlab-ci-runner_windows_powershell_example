@@ -1,0 +1,9 @@
+pages:
+  stage: deploy
+  tags:
+  - test
+  script:
+  # powershell command example
+  - powershell -command "write-host 'Hello World!'; Get-Date"
+  # powershell script example
+  - powershell -File helloWorld.ps1
